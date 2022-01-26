@@ -23,7 +23,7 @@ PyCharm Community Edition 2019.3.3 x64
 所用代码为 2-fenci.py  
 这里用到了停用词stopword（还是注意修改文件路径！）  
 ![](https://cdn.jsdelivr.net/gh/hren0315/imgbed/imgbed/post202201262043064.png)  
-结果如下，已经将一些对主题无帮助的去掉  
+结果如下，已经将一些对主题无帮助词语的去掉  
 ![](https://cdn.jsdelivr.net/gh/hren0315/imgbed/imgbed/post202201262043065.png)  
 ## 四、词云制作  
 注：这一步与本项目无关，是我自己临时加的，可做可不做  
