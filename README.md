@@ -20,16 +20,19 @@ PyCharm Community Edition 2019.3.3 x64
 整合好的文本都存到了result.txt文件中，如图  
 ![](https://cdn.jsdelivr.net/gh/hren0315/imgbed/imgbed/post202201262043063.png)  
 ## 三、分词  
+所用代码为 2-fenci.py  
 这里用到了停用词stopword（还是注意修改文件路径！）  
 ![](https://cdn.jsdelivr.net/gh/hren0315/imgbed/imgbed/post202201262043064.png)  
 结果如下，已经将一些对主题无帮助的去掉  
 ![](https://cdn.jsdelivr.net/gh/hren0315/imgbed/imgbed/post202201262043065.png)  
 ## 四、词云制作  
 注：这一步与本项目无关，是我自己临时加的，可做可不做  
+所用代码为 3-ciyun.py  
 将分好词的文件制作成词云，背景图片可自己找，无关所谓，我做出来的是这种效果  
 ![](https://cdn.jsdelivr.net/gh/hren0315/imgbed/imgbed/post202201262043066.png)
 ![](https://cdn.jsdelivr.net/gh/hren0315/imgbed/imgbed/post202201262043067.png)  
 ## 五、训练模型及可视化  
+所用代码为 4-lda.py  
 此数据共4084个文档，主题词共690个  
 ![](https://cdn.jsdelivr.net/gh/hren0315/imgbed/imgbed/post202201262053723.JPG)  
 训练的主题个数共8个，具体如图所示  
