@@ -10,27 +10,42 @@ PyCharm Community Edition 2019.3.3 x64
 下载好语料后会发现有两个文件夹，train是训练数据 test是测试数据  
 ![](https://cdn.jsdelivr.net/gh/hren0315/imgbed/imgbed/post202201262043057.png)  
 每个文件夹中都有八个主题的小文件夹  
-![](https://cdn.jsdelivr.net/gh/hren0315/imgbed/imgbed/post202201262043060.png)  
+<div  align="left">
+<img src="https://cdn.jsdelivr.net/gh/hren0315/imgbed/imgbed/post202201262043060.png" width = 60% height = 50% />
+</div>
+
 每个小文件夹中又有许多.txt文本，其中训练文件中有40个，测试文件中有10个  
-![](https://cdn.jsdelivr.net/gh/hren0315/imgbed/imgbed/post202201262043061.png)  
+<div  align="left">
+<img src="https://cdn.jsdelivr.net/gh/hren0315/imgbed/imgbed/post202201262043061.png" width = 60% height = 50% />
+</div>
+ 
 整合数据的目的就是将所有.txt文件整合到一个文本中备用  
 所用代码为 1-zhengh.py  
 注意修改文件路径！  
 ![](https://cdn.jsdelivr.net/gh/hren0315/imgbed/imgbed/post202201262043062.png)  
 整合好的文本都存到了result.txt文件中，如图  
-![](https://cdn.jsdelivr.net/gh/hren0315/imgbed/imgbed/post202201262043063.png)  
+<div  align="left">
+<img src="https://cdn.jsdelivr.net/gh/hren0315/imgbed/imgbed/post202201262043063.png" width = 50% height = 40% />
+</div> 
+
 ## 三、分词  
 所用代码为 2-fenci.py  
 这里用到了停用词stopword（还是注意修改文件路径！）  
 ![](https://cdn.jsdelivr.net/gh/hren0315/imgbed/imgbed/post202201262043064.png)  
 结果如下，已经将一些对主题无帮助词语的去掉  
-![](https://cdn.jsdelivr.net/gh/hren0315/imgbed/imgbed/post202201262043065.png)  
+<div  align="left">
+<img src="https://cdn.jsdelivr.net/gh/hren0315/imgbed/imgbed/post202201262043065.png" width = 50% height = 40% />
+</div> 
+
 ## 四、词云制作  
 注：这一步与本项目无关，是我自己临时加的，可做可不做  
 所用代码为 3-ciyun.py  
-将分好词的文件制作成词云，背景图片可自己找，无关所谓，我做出来的是这种效果  
-![](https://cdn.jsdelivr.net/gh/hren0315/imgbed/imgbed/post202201262043066.png)
-![](https://cdn.jsdelivr.net/gh/hren0315/imgbed/imgbed/post202201262043067.png)  
+将分好词的文件制作成词云，背景图片可自己找，无关所谓，我做出来的是这种效果    
+<div  align="left">
+<img src="https://cdn.jsdelivr.net/gh/hren0315/imgbed/imgbed/post202201262043066.png" width = 70% height = 60% /></div>
+<div  align="left">
+<img src="https://cdn.jsdelivr.net/gh/hren0315/imgbed/imgbed/post202201262043067.png" width = 70% height = 60% /></div>
+
 ## 五、训练模型及可视化  
 所用代码为 4-lda.py  
 此数据共4084个文档，主题词共690个  
