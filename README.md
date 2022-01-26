@@ -8,7 +8,7 @@ PyCharm Community Edition 2019.3.3 x64
 以及分词所需的停用词 stopwords.txt  
 ## 二、整合数据  
 下载好语料后会发现有两个文件夹，train是训练数据 test是测试数据  
-![](https://i.bmp.ovh/imgs/2022/01/490e7e37086c742a.png)  
+![](https://cdn.jsdelivr.net/gh/hren0315/imgbed/imgbed/post202201262043057.png)
 每个文件夹中都有八个主题的小文件夹  
 ![](https://i.bmp.ovh/imgs/2022/01/039fb8552a75c057.png)  
 每个小文件夹中又有许多.txt文本，其中训练文件中有40个，测试文件中有10个  
